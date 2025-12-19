@@ -14,8 +14,8 @@ jobs:
   job_1: 
     runs-on: ubuntu-latest #arc-runner-set-c5x
     steps:
-      - name: Sleeping job for 10 seconds
+      - name: Sleeping job for 120 seconds
         run: |
-          echo "Job 1 starting sleep for 10 seconds"
-          sleep 10
+          echo "Job 1 starting sleep for 120 seconds"
+          sleep 120
           echo "Job 1 finished sleeping"
