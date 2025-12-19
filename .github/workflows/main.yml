@@ -17,5 +17,5 @@ jobs:
       - name: Sleeping job for 800 seconds
         run: |
           echo "Job 1 starting sleep for 800 seconds"
-          sleep 120
+          sleep 660
           echo "Job 1 finished sleeping"
